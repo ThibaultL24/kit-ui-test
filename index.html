@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit UI - Eventbrite_like</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="application.css">
+</head>
+<body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Eventbrite-like</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link text-white">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Créer un événement</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                Mon profil
+              </a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Mon profil</a>
+                <a href="#" class="dropdown-item">Se déconnecter</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Buttons-->
+    <button class="btn primary">Bouton Principal</button>
+    <button class="btn warning">Bouton Warning</button>
+    <button class="btn danger">Bouton Danger</button>
+    <button class="btn success">Bouton Success</button>
+    <button class="btn info">Bouton Info</button>
+
+    <!-- Forms -->
+    <form>
+        <div class="form-group">
+            <label for="inputUsername">Nom d'utilisateur</label>
+            <input type="text" class="form-control" id="inputUsername" placeholder="Entrez votre nom d'utilisateur">
+        </div>
+        <div class="form-group">
+            <label for="inputEmail">Adresse email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Entrez votre adresse email">
+        </div>
+        <div class="form-group">
+            <label for="inputPassword">Mot de passe</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Entrez votre mot de passe">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="checkboxRemember">
+            <label class="form-check-label" for="checkboxRemember">Se souvenir de moi</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Soumettre</button>
+    </form>
+
+
+    <div class="card mb-3">
+  <h3 class="card-header">Card header</h3>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+    <rect width="100%" height="100%" fill="#868e96"></rect>
+    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+  </svg>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Card title</h4>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+    
+    <!-- Lists-->
+    <ul class="list-group">
+        <li class="list-group-item">Élément 1</li>
+        <li class="list-group-item">Élément 2</li>
+        <li class="list-group-item">Élément 3</li>
+    </ul>
+
+    <!-- Cards -->
+    <div class="card mb-3">
+        <h3 class="card-header">Card header</h3>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+        </svg>
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+        <div class="card-footer text-muted">
+          2 days ago
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+    <!-- Onglets -->
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'tab1')">Onglet 1</button>
+        <button class="tablinks" onclick="openTab(event, 'tab2')">Onglet 2</button>
+        <button class="tablinks" onclick="openTab(event, 'tab3')">Onglet 3</button>
+    </div>
+
+    <div id="tab1" class="tabcontent">
+        Contenu de l'onglet 1...
+    </div>
+
+    <div id="tab2" class="tabcontent">
+        Contenu de l'onglet 2...
+    </div>
+
+    <div id="tab3" class="tabcontent">
+        Contenu de l'onglet 3...
+    </div>
+
+    <!-- Alertes -->
+    <div class="alert success">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        C'est un message d'alerte réussi !
+    </div>
+
+    <div class="alert warning">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Attention ! Ceci est une alerte de type warning.
+    </div>
+
+    <div class="alert danger">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Danger ! Cette alerte signale un problème critique.
+    </div>
+
+    <div class="alert info">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Voici une alerte informative pour vous informer.
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <p class="mt-3">Purpose is a unique and beautiful collection of UI elements that are all flexible and modular. A complete and customizable solution to building the website of your dreams.</p>
+                </div>
+                <div class="col-md-2 col-sm-4 mb-4">
+                    <h6 class="heading mb-3">Account</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="pages/account-profile.html">Profile</a></li>
+                        <li><a href="pages/account-settings.html">Settings</a></li>
+                        <li><a href="pages/account-billing.html">Billing</a></li>
+                        <li><a href="pages/account-notifications.html">Notifications</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-4 mb-4">
+                    <h6 class="heading mb-3">About</h6>
+                    <ul class="list-unstyled text-small">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-4 mb-4">
+                    <h6 class="heading mb-3">Company</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <p class="text-small">© 2018-2019 <a href="https://webpixels.io" class="font-weight-bold text-light" target="_blank">Webpixels</a>. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="nav justify-content-center justify-content-md-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://dribbble.com/webpixels" target="_blank">
+                                <i class="fab fa-dribbble text-light"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/webpixelsofficial" target="_blank">
+                                <i class="fab fa-instagram text-light"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/webpixels" target="_blank">
+                                <i class="fab fa-github text-light"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/webpixels" target="_blank">
+                                <i class="fab fa-facebook text-light"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>       
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        function closeAlert(element) {
+            element.parentElement.style.display = 'none';
+        }
+    </script>
+    <!-- Ajout de la librairie Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+  
